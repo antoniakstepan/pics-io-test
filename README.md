@@ -14,3 +14,18 @@ To run this project locally, clone the repository and run:
 npm install
 npm start
 ```
+
+## Use lib
+
+- Material Ui
+- redux-persist
+- redux
+- @reduxjs/toolki
+
+## Add Comment button
+
+Open modal with input for new comment
+
+## Delete icon on list comments
+
+Open modal with delete modal
