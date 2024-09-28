@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/antoniakstepan/pics-io-test/static/css/main.d76925f2.css",
-    "main.js": "/antoniakstepan/pics-io-test/static/js/main.b182aa20.js",
-    "index.html": "/antoniakstepan/pics-io-test/index.html",
-    "main.d76925f2.css.map": "/antoniakstepan/pics-io-test/static/css/main.d76925f2.css.map",
-    "main.b182aa20.js.map": "/antoniakstepan/pics-io-test/static/js/main.b182aa20.js.map"
+    "main.css": "/pics-io-test/static/css/main.d76925f2.css",
+    "main.js": "/pics-io-test/static/js/main.b182aa20.js",
+    "index.html": "/pics-io-test/index.html",
+    "main.d76925f2.css.map": "/pics-io-test/static/css/main.d76925f2.css.map",
+    "main.b182aa20.js.map": "/pics-io-test/static/js/main.b182aa20.js.map"
   },
   "entrypoints": [
     "static/css/main.d76925f2.css",
