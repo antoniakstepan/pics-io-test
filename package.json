@@ -2,7 +2,7 @@
   "name": "pics-io-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/antoniakstepan/pics-io-test",
+  "homepage": "https://antoniakstepan.github.io/pics-io-test/",
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
