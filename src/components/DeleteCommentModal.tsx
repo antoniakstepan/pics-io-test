@@ -19,7 +19,6 @@ function DeleteCommentModal({ onClose, open, id, comment }: Props) {
   const dispatch = useDispatch<AppDispatch>();
 
   const handleDeleteComment = (id: string) => {
-    console.log("ssa");
     dispatch(deleteComment(Number(id)));
     onClose();
   };

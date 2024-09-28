@@ -33,7 +33,6 @@ export const fetchComments = createAsyncThunk(
   }
 );
 
-// Add comment to API
 export const addComment = createAsyncThunk(
   "comments/addComment",
   async ({
@@ -66,7 +65,6 @@ export const addComment = createAsyncThunk(
   }
 );
 
-// Delete comment from API
 export const deleteComment = createAsyncThunk(
   "comments/deleteComment",
   async (commentId: number) => {
@@ -82,7 +80,6 @@ const commentsSlice = createSlice({
   initialState,
   reducers: {},
   extraReducers: (builder) => {
-    // Fetch comments
     builder
       .addCase(fetchComments.pending, (state) => {
         state.status = "loading";
@@ -96,7 +93,6 @@ const commentsSlice = createSlice({
         state.error = action.error.message;
       });
 
-    // Add comment
     builder
       .addCase(addComment.pending, (state) => {
         state.status = "loading";
@@ -110,7 +106,6 @@ const commentsSlice = createSlice({
         state.error = action.error.message;
       });
 
-    // Delete comment
     builder
       .addCase(deleteComment.pending, (state) => {
         state.status = "loading";

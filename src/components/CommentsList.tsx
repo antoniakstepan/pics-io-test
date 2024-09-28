@@ -3,7 +3,6 @@ import {
   Container,
   Typography,
   CircularProgress,
-  Alert,
   ListItemText,
   IconButton,
   Box,
@@ -47,7 +46,7 @@ function CommentsList() {
   const handleClose = () => {
     setOpen(false);
     setStorageNewComponent("");
-    setNewComment(""); // Clear the input field when closing the modal
+    setNewComment("");
   };
 
   const handleChangeComment = (value: string) => {
