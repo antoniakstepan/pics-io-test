@@ -1,10 +1,16 @@
-# pics-io-test
+# Pics IO Test
 
-## Available Scripts
+A simple application to manage comments using React, Redux, and Material-UI.
 
-In the project directory, you can run:
+## Live Demo
 
-### `npm start`
+[Visit the live application](https://antoniakstepan.github.io/pics-io-test)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
+
+To run this project locally, clone the repository and run:
+
+```bash
+npm install
+npm start
+```
